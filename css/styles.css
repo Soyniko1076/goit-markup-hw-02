@@ -1,33 +1,6 @@
-body {
-font-family: 'Roboto', sans-serif;
-color: #434455;
+.list {
+  list-style: none;
 }
-
-/* header */
-.nav {
-   
-}
-
-.nav-list {
-
-}
-
-.nav-item {
-
-}
-
-.nav-link {
-
-}
-
-.contacts {
-
-}
-
-.contacts-item {
-
-}
-
-.contacts-link {
-    
+.link {
+  text-decoration: none;
 }
