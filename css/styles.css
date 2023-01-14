@@ -4,13 +4,9 @@
   --primary-brand: #4d5ae5;
   --pressed-state: #404bbf;
   --dark: #2e2f42;
-  --succes-100: #31d0aa;
   --text: #434455;
-  --subtle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
-  --modal-overlay: #2e2f42;
-  --hero-background: #2e2f42;
 }
 
 body {
@@ -82,6 +78,10 @@ body {
   font-family: inherit;
   color: var(--primary-background);
   background-color: var(--primary-brand);
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .hero-btn:hover,
