@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,70 +14,71 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- header-section -->
+    <!----------------------------------- header-section -------------------------------------->
     <header class="page-header">
-      <a href="./index.html" class="link logo"><span class="logo-item">web</span>studio</a>
+      <a href="./index.html" class="link logo"
+        ><span class="logo-item">web</span><span class="logo-syllable">studio</span></a
+      >
 
-      <nav class="page-nav">
-        <ul class="list nav-list">
+      <nav class="nav">
+        <ul class="nav-list list">
           <li class="nav-list-item">
-            <a href="./index.html" class="link nav-list-link">Studio</a>
+            <a href="./index.html" class="nav-list-link link">Studio</a>
           </li>
           <li class="nav-list-item">
-            <a href="./portfolio.html" class="link nav-list-link">Portfolio</a>
+            <a href="./portfolio.html" class="nav-list-link link">Portfolio</a>
           </li>
           <li class="nav-list-item">
-            <a href="" class="link nav-list-link">Contacts</a>
+            <a href="" class="nav-list-link link">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <ul class="list contact-list">
+      <ul class="contact-list list">
         <li class="contact-list-item">
-          <a href="mailto:info@devstudio.com" class="link contact-list-link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="contact-list-link link">info@devstudio.com</a>
         </li>
         <li class="contact-list-item">
-          <a href="tel:+110001111111" class="link contact-list-link">+11 (000) 111-11-11</a>
+          <a href="tel:+110001111111" class="contact-list-link link">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </header>
 
-    <!-- main -->
     <main>
-      <!-- hero-section -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order service</button>
+      <!--------------------------------- hero-section -------------------------------------->
+      <section class="hero-section">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order service</button>
       </section>
 
-      <!-- advances -->
-      <section>
+      <!----------------------------------- advances ----------------------------------------->
+      <section advances-section>
         <h2 hidden>Why our webstudio is the best</h2>
-        <ul class="list">
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <ul class="advances-section-list list">
+          <li class="advances-section-list-item">
+            <h3 class="advances-section-list-item-slogan">Strategy</h3>
+            <p class="advances-section-list-item-text">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="advances-section-list-item">
+            <h3 class="advances-section-list-item-slogan">Punctuality</h3>
+            <p class="advances-section-list-item-text">
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="advances-section-list-item">
+            <h3 class="advances-section-list-item-slogan">Diligence</h3>
+            <p class="advances-section-list-item-text">
               Research and confirm brands that present the strongest digital growth opportunities
               and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="advances-section-list-item">
+            <h3 class="advances-section-list-item-slogan">Technologies</h3>
+            <p class="advances-section-list-item-text">
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
             </p>
@@ -86,9 +86,9 @@
         </ul>
       </section>
 
-      <!-- features -->
-      <section>
-        <h2>What are we doing</h2>
+      <!---------------------------------------- features ------------------------------------->
+      <section class="features-section">
+        <h2 class="features-title">What are we doing</h2>
         <ul class="list">
           <li>
             <img
@@ -117,47 +117,42 @@
         </ul>
       </section>
 
-      <!-- teem -->
-      <section>
-        <h2>Our Team</h2>
-
-        <!-- teem-card-1 -->
-        <ul class="list">
-          <li>
+      <!-------------------------------------------- teem ---------------------------------------->
+      <section class="teem-section">
+        <h2 class="teem-title">Our Team</h2>
+        <ul class="teem-list list">
+          <li class="teem-list-item">
             <img src="./images/team/employee-1.jpg" alt="employee-1" width="264" height="260" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Disigner</p>
+            <h3 class="teem-list-name">Mark Guerrero</h3>
+            <p class="teem-list-profession">Product Disigner</p>
           </li>
-
-          <!-- teem-card-2 -->
-          <li>
+          <li class="teem-list-item">
             <img src="./images/team/employee-2.jpg" alt="employee-2" width="264" height="260" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="teem-list-name">Tom Ford</h3>
+            <p class="teem-list-profession">Frontend Developer</p>
           </li>
-          <!-- teem-card-3 -->
-
-          <li>
+          <li class="teem-list-item">
             <img src="./images/team/employee-3.jpg" alt="employee-3" width="264" height="260" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="teem-list-name">Camila Garcia</h3>
+            <p class="teem-list-profession">Marketing</p>
           </li>
-
-          <!-- teem-card-4 -->
-          <li>
+          <li class="teem-list-item">
             <img src="./images/team/employee-4.jpg" alt="employee-4" width="264" height="260" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="teem-list-name">Daniel Wilson</h3>
+            <p class="teem-list-profession">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!-- footer -->
-    <footer>
+    <!----------------------------------------- footer ----------------------------------------->
+    <footer class="footer">
       <h2 hidden>Call to action</h2>
-      <a href="./index.html" class="link">webstudio</a>
-      <p>
+      <a href="./index.html" class="link footer-logo"
+        ><span class="logo-item">web</span
+        ><span class="footer-logo-syllable-secondary">studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
