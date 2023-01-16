@@ -78,9 +78,9 @@ body {
   color: var(--primary-brand);
 }
 
-/* ------------------hero-section------------------- */
+/* -----------------------hero----------------------- */
 
-.hero-section {
+.hero {
   background-color: var(--dark);
 }
 .main-title {
@@ -94,6 +94,10 @@ body {
 
 .hero-btn {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--primary-background);
   background-color: var(--primary-brand);
 }
@@ -108,14 +112,15 @@ body {
   background-color: var(--pressed-state);
 }
 
-/* ------------------advances------------------------ */
-.advances-section-list-item-slogan {
+/* ------------------advantages------------------------ */
+.advantages-slogan {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.advances-section-list-item-text {
+.advantages-text {
   line-height: 1.5;
   color: var(--text);
 }
@@ -165,7 +170,7 @@ body {
 .filter-list {
   text-align: center;
 }
-.filter-list-btn {
+.filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -175,20 +180,20 @@ body {
   background-color: var(--light);
 }
 
-.filter-list-btn:hover,
-.filter-list-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--primary-background);
   background-color: var(--pressed-state);
 }
 
 /* ---------------------examples------------------- */
-.examples-list-item-title {
+.examples-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.examples-list-item-text {
+.examples-text {
   line-height: 1.5;
   color: var(--text);
 }
